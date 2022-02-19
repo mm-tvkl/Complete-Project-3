@@ -9,6 +9,7 @@
   "author": "Mohammadmahdi Tavakkoli",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.1"
   }
 }
