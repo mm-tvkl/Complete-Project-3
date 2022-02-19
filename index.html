@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +11,72 @@
 
     <!-- Style.css -->
     <link rel="stylesheet" href="./css/style.css">
-    
+
     <title>Project 2</title>
 </head>
+
 <body>
-    <header class="myHeader"></header>
+    <header class="myHeader">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-transparent p-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <!-- Item 1 -->
+                        <li class="nav-item mx-2"><a class="nav-link fw-bold active" href="#">Home</a></li>
+                        
+                        <!-- Item 2 -->
+                        <li class="nav-item mx-2"><a class="nav-link fw-bold" href="#">Features</a></li>
+                        
+                        <!-- Item 3 -->
+                        <li class="nav-item mx-2"><a class="nav-link fw-bold" href="#">Video</a></li>
+
+                        <!-- Item 4 -->
+                        <li class="nav-item mx-2"><a href="#" class="nav-link fw-bold">Pricing</a></li>
+
+                        <!-- Item 5 -->
+                        <li class="nav-item mx-2"><a href="#" class="nav-link fw-bold">Screens</a></li>
+
+                        <!-- Item 6 -->
+                        <li class="nav-item mx-2"><a href="#" class="nav-link fw-bold">Page</a></li>
+
+                        <!-- Item 7 -->
+                        <li class="nav-item mx-2"><a href="#" class="nav-link fw-bold">Blog</a></li>
+
+                        <!-- Item 8 -->
+                        <li class="nav-item mx-2"><a href="#" class="nav-link fw-bold">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Section of Header -->
+        <section>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row gy-5">
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
+                            <div>
+                                <h1 class="header-title">The Best App</h1>
+                                <h1 class="header-title">in the Universe</h1>
+                                <p class="text-white my-4">inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women.</p>
+                                <a href="#" class="btn btn-light my-btn py-3 px-5"><span>Expelore Now</span></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
+                            <img class="img-fluid" src="./img/header-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
 </body>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
 </html>
