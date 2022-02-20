@@ -2,7 +2,7 @@
     .myHeader{
         height: 160vh;
     }
-
+    
     .header-title{
         font-size: 50px;
         margin-top: 20px;
@@ -18,6 +18,17 @@
 @media screen and (max-width:377px) {
     .header-title{
         font-size: 35px;
+    }
+}
+@media screen and (max-height:579px) {
+    .myHeader{
+        height: 160vh;
+    }
+}
+
+@media screen and (max-height:434px) {
+    .myHeader{
+        height: 180vh;
     }
 }
 
@@ -48,17 +59,5 @@
 @media screen and (max-width:400px) {
     .fs-icon{
         font-size: 70px;
-    }
-}
-
-@media screen and (max-height:579px) {
-    .myHeader{
-        height: 160vh;
-    }
-}
-
-@media screen and (max-height:434px) {
-    .myHeader{
-        height: 180vh;
     }
 }
