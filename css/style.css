@@ -197,3 +197,42 @@ body {
 .m-card-title {
     font-size: 25px;
 }
+
+.footer-title {
+    border-bottom: 3px solid #bc2bff;
+    padding-bottom: 20px;
+}
+
+.ulItem a {
+    color: white;
+    text-decoration: none;
+    transition: color 200ms;
+}
+
+.ulItem a:hover {
+    color: #eb9dff;
+}
+
+.authorName {
+    background: -webkit-linear-gradient(180deg, #6a2eff, #d04eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -o-background-clip: text;
+    -o-text-fill-color: transparent;
+}
+
+.icon-link {
+    color: white;
+}
+
+.icon-link:hover {
+    background: -webkit-linear-gradient(180deg, #6a2eff, #d04eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -o-background-clip: text;
+    -o-text-fill-color: transparent;
+}
