@@ -24,6 +24,8 @@ $(document).ready(function () {
         startPosition: 'zero',
         stagePadding: 50,
         autoplay: true,
-        autoplay: 2000
+        autoplay: 2000,
+        dotsEach:2,
+        dotsSpeed:200
     });
 });
