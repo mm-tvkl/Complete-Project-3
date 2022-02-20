@@ -186,7 +186,7 @@ body {
 
 .m-card3:hover.m-card3 .m-card-title {
     background: -webkit-linear-gradient(180deg, #6a2eff, #d04eff);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
