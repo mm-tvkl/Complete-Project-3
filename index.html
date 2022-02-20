@@ -12,6 +12,9 @@
     <!-- Style.css -->
     <link rel="stylesheet" href="./css/style.css">
 
+    <!-- Media.css -->
+    <link rel="stylesheet" href="./css/media.css">
+
     <title>Project 2</title>
 </head>
 
@@ -56,8 +59,8 @@
         </nav>
 
         <!-- Main Section of Header -->
-        <section>
-            <div class="container-fluid">
+        <section class="h-100">
+            <div class="container-fluid d-flex justify-content-center align-items-center h-100">
                 <div class="container">
                     <div class="row gy-5">
                         <div class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
@@ -86,7 +89,7 @@
         <div class="container-fluid" style="padding-top: 80px; padding-bottom: 80px;">
             <div class="container">
                 <!-- First Row - Contain Title and Text -->
-                <div class="row text-center justify-content-center">
+                <div class="row gy-4 text-center justify-content-center">
                     <div class="col-sm-12 col-lg-7">
                         <h1>Unique Features</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
@@ -95,7 +98,7 @@
                 </div>
 
                 <!-- Second Row - Contain Cards -->
-                <div class="row mt-5">
+                <div class="row gy-4 mt-5">
                     <!-- ITEM 1 -->
                     <div class="col-sm-12 col-md-6 col-lg-3">
                         <div class="card border-0 shadow">
@@ -154,15 +157,15 @@
         <!-- Features Section 1 -->
         <div class="container-fluid py-5">
             <div class="container">
-                <div class="row">
+                <div class="row gy-4">
                     <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
                         <img class="img-fluid" src="./img/features-img-2.png" alt="">
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
                         <div>
-                            <h1 class="fw-bold">We Believe that Interior</h1>
-                            <h1 class="fw-bold">beautifies the Total</h1>
-                            <h1 class="fw-bold">Architecture</h1>
+                            <h1 class="fw-bold fs-responsive">We Believe that Interior</h1>
+                            <h1 class="fw-bold fs-responsive">beautifies the Total</h1>
+                            <h1 class="fw-bold fs-responsive">Architecture</h1>
                             <p class="my-4">inappropriate behavior is often laughed off as “boys will be boys,” women
                                 face higher conduct standards especially in the workplace. That’s why it’s crucial that,
                                 as women, our behavior on the job is beyond reproach. inappropriate behavior is often
@@ -177,12 +180,12 @@
         <!-- Features Section 2 -->
         <div class="container-fluid py-4" style="background-color: aliceblue;">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+                <div class="row gy-4">
+                    <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center order-1 order-md-0">
                         <div>
-                            <h1 class="fw-bold">We Believe that Interior</h1>
-                            <h1 class="fw-bold">beautifies the Total</h1>
-                            <h1 class="fw-bold">Architecture</h1>
+                            <h1 class="fw-bold fs-responsive">We Believe that Interior</h1>
+                            <h1 class="fw-bold fs-responsive">beautifies the Total</h1>
+                            <h1 class="fw-bold fs-responsive">Architecture</h1>
                             <p class="my-4">inappropriate behavior is often laughed off as “boys will be boys,” women
                                 face higher conduct standards especially in the workplace. That’s why it’s crucial that,
                                 as women, our behavior on the job is beyond reproach. inappropriate behavior is often
@@ -190,8 +193,24 @@
                             <a href="#" class="btn btn-purple-gradient pt-2 px-4 text-white">See Details</a>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center align-items-center order-0 order-md-1">
                         <img class="img-fluid" src="./img/features-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Section -->
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="card border-0 bg-transparent text-white">
+                        <img src="./img/video-img.png" class="card-img" alt="...">
+                        <div class="card-img-overlay w-100 h-100 d-flex justify-content-center align-items-center">
+                            <a href="#" class="m-card-title d-flex align-items-center text-decoration-none">
+                                <i class="bi bi-play-circle text-white d-inline-flex fs-icon"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
