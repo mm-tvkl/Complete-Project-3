@@ -1,63 +1,51 @@
 @media screen and (max-width: 991px) {
-    .myHeader{
+    .myHeader {
         height: 160vh;
     }
-    
-    .header-title{
+    .header-title {
         font-size: 50px;
         margin-top: 20px;
     }
 }
 
 @media screen and (max-width:443px) {
-    .myHeader{
+    .myHeader {
         height: 155vh;
     }
 }
 
 @media screen and (max-width:377px) {
-    .header-title{
+    .header-title {
         font-size: 35px;
-    }
-}
-@media screen and (max-height:579px) {
-    .myHeader{
-        height: 160vh;
-    }
-}
-
-@media screen and (max-height:434px) {
-    .myHeader{
-        height: 180vh;
     }
 }
 
 @media screen and (max-width:400px) {
-    .fs-responsive{
+    .fs-responsive {
         font-size: 25px;
     }
 }
 
 @media screen and (max-width:325px) {
-    .fs-responsive{
+    .fs-responsive {
         font-size: 20px;
     }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
-    .fs-responsive{
+    .fs-responsive {
         font-size: 30px;
     }
 }
 
 @media screen and (max-width:767px) {
-    .fs-icon{
+    .fs-icon {
         font-size: 90px;
     }
 }
 
 @media screen and (max-width:400px) {
-    .fs-icon{
+    .fs-icon {
         font-size: 70px;
     }
 }
