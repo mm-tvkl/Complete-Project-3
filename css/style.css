@@ -72,3 +72,8 @@ body{
 .m-nav-item:hover.m-nav-item::before{
     width: 100%;
 }
+
+.bg-gradient-purple{
+    background: rgb(106,46,255);
+background: linear-gradient(270deg, rgba(106,46,255,1) 0%, rgba(208,78,255,1) 100%);
+}
