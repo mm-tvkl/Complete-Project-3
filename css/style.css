@@ -55,3 +55,20 @@ body{
 .my-btn:focus{
     box-shadow: none;
 }
+
+.m-nav-item{
+    position: relative;
+}
+.m-nav-item::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: crimson;
+    transition: width 300ms;
+}
+.m-nav-item:hover.m-nav-item::before{
+    width: 100%;
+}
