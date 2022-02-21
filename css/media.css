@@ -8,6 +8,42 @@
     }
 }
 
+@media screen and (max-height:731px) {
+    .myHeader {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-height:614px) {
+    .myHeader {
+        height: 135vh;
+    }
+}
+
+@media screen and (max-height:515px) {
+    .myHeader {
+        height: 165vh;
+    }
+}
+
+@media screen and (max-height:421px) {
+    .myHeader {
+        height: 190vh;
+    }
+}
+
+@media screen and (max-height:390px) {
+    .myHeader {
+        height: 220vh;
+    }
+}
+
+@media screen and (max-height:333px) {
+    .myHeader {
+        height: 250vh;
+    }
+}
+
 @media screen and (max-width:443px) {
     .myHeader {
         height: 155vh;
@@ -38,6 +74,12 @@
     }
 }
 
+@media screen and (min-width:768px) {
+    .fs-icon {
+        font-size: 100px;
+    }
+}
+
 @media screen and (max-width:767px) {
     .fs-icon {
         font-size: 90px;
@@ -46,6 +88,6 @@
 
 @media screen and (max-width:400px) {
     .fs-icon {
-        font-size: 70px;
+        font-size: 50px;
     }
 }
