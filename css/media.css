@@ -1,93 +1,48 @@
-@media screen and (max-width: 991px) {
-    .myHeader {
-        height: 160vh;
+/* Navbar Item - media query */
+@media screen and (max-width:950px) {
+    .m-nav-item{
+        font-size: 13px;
     }
-    .header-title {
-        font-size: 50px;
-        margin-top: 20px;
+}
+@media screen and (max-width:830px) {
+    .m-nav-item{
+        font-size: 11px;
     }
 }
 
-@media screen and (max-height:731px) {
-    .myHeader {
-        height: 120vh;
+/* Header Title - "The Best App In Universe" */
+@media screen and (max-width:900px) {
+    .header-title{
+        font-size: 40px;
     }
 }
-
-@media screen and (max-height:614px) {
-    .myHeader {
-        height: 135vh;
-    }
-}
-
-@media screen and (max-height:515px) {
-    .myHeader {
-        height: 165vh;
-    }
-}
-
-@media screen and (max-height:421px) {
-    .myHeader {
-        height: 190vh;
-    }
-}
-
-@media screen and (max-height:390px) {
-    .myHeader {
-        height: 220vh;
-    }
-}
-
-@media screen and (max-height:333px) {
-    .myHeader {
-        height: 250vh;
-    }
-}
-
-@media screen and (max-width:443px) {
-    .myHeader {
-        height: 155vh;
-    }
-}
-
-@media screen and (max-width:377px) {
-    .header-title {
-        font-size: 35px;
-    }
-}
-
-@media screen and (max-width:400px) {
-    .fs-responsive {
-        font-size: 25px;
-    }
-}
-
-@media screen and (max-width:325px) {
-    .fs-responsive {
-        font-size: 20px;
-    }
-}
-
-@media screen and (min-width:768px) and (max-width:991px) {
-    .fs-responsive {
+@media screen and (max-width:320px) {
+    .header-title{
         font-size: 30px;
     }
 }
 
-@media screen and (min-width:768px) {
-    .fs-icon {
-        font-size: 100px;
-    }
-}
-
-@media screen and (max-width:767px) {
-    .fs-icon {
-        font-size: 90px;
+/* Title of Feature Section - We Believe that Interior beautifies the Total Architecture */
+@media screen and (max-width:991px) {
+    .fs-responsive{
+        font-size: 30px;
     }
 }
 
 @media screen and (max-width:400px) {
-    .fs-icon {
-        font-size: 50px;
+    .fs-responsive{
+        font-size: 22px;
+    }
+}
+
+/* Icon of Video */
+@media screen and (min-width:1000px) {
+    .fs-icon{
+        font-size: 70px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .fs-icon{
+        font-size: 40px;
     }
 }
