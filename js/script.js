@@ -88,12 +88,3 @@ window.addEventListener("scroll", function() {
         navbar.classList.add("p-4");
     }
 });
-
-var myHome = document.getElementById("homeItem");
-var myFeature = document.getElementById("featureItem");
-var myVideo = document.getElementById("videoItem");
-var myPricing = document.getElementById("pricingItem");
-var myScreen = document.getElementById("screenItem");
-var myTest = document.getElementById("testItem");
-var myDownload = document.getElementById("downloadItem");
-var myNews = document.getElementById("newsItem");
