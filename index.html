@@ -29,7 +29,7 @@
         <nav id="Navbar" class="navbar navbar-expand-md navbar-dark bg-transparent p-4">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button">
+                <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbar-responsive" type="button">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -79,6 +79,81 @@
         </section>
 
     </header>
+
+    <!-- Responsive Menu -->
+    <div id="navbar-responsive" class="offcanvas offcanvas-start bg-gradient-canvas" tabindex="-1" id="offcanvasExample">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <!-- Item 1 -->
+                <li class="m-nav-item res-nav-item mx-2">
+                    <a class="nav-link fw-bold text-dark" id="homeItem" href="#">
+                        <i class="bi bi-house-fill"></i>
+                        Home
+                    </a>
+                </li>
+
+                <!-- Item 2 -->
+                <li class=" m-nav-item res-nav-item mx-2">
+                    <a class="nav-link fw-bold text-dark" id="featureItem" href="#feature">
+                        <i class="bi bi-kanban-fill"></i>
+                        Features
+                    </a>
+                </li>
+
+                <!-- Item 3 -->
+                <li class="m-nav-item res-nav-item mx-2">
+                    <a class="nav-link fw-bold text-dark" id="videoItem" href="#videoSection">
+                        <i class="bi bi-file-earmark-play-fill"></i>
+                        Video
+                    </a>
+                </li>
+
+                <!-- Item 4 -->
+                <li class="m-nav-item res-nav-item mx-2">
+                    <a href="#pricingSection" id="pricingItem" class="nav-link fw-bold text-dark">
+                        <i class="bi bi-tags-fill"></i>
+                        Pricing
+                    </a>
+                </li>
+
+                <!-- Item 5 -->
+                <li class="m-nav-item res-nav-item mx-2">
+                    <a href="#screenSection" id="screenItem" class="nav-link fw-bold text-dark">
+                        <i class="bi bi-window-fullscreen"></i>
+                        Screens
+                    </a>
+                </li>
+
+                <!-- Item 6 -->
+                <li class="m-nav-item res-nav-item mx-2">
+                    <a href="#TestimonialsSection" id="testItem" class="nav-link fw-bold text-dark">
+                        <i class="bi bi-chat-dots-fill"></i>
+                        Testimonials
+                    </a>
+                </li>
+
+                <!-- Item 7 -->
+                <li class="m-nav-item res-nav-item mx-2">
+                    <a href="#downloadsSection" id="downloadItem" class="nav-link fw-bold text-dark">
+                        <i class="bi bi-cloud-download-fill"></i>
+                        Download
+                    </a>
+                </li>
+
+                <!-- Item 8 -->
+                <li class="m-nav-item res-nav-item mx-2">
+                    <a href="#NewsSection" id="newsItem"class="nav-link fw-bold text-dark">
+                        <i class="bi bi-newspaper"></i>
+                        News
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <!-- Features Section -->
     <section class="bg-light" id="feature">

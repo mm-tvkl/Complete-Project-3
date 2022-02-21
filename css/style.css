@@ -281,3 +281,27 @@ a.active::before {
         top: 0;
     }
 }
+
+.bg-gradient-canvas{
+    background-color: rgb(225, 206, 255);
+}
+
+.res-nav-item {
+    font-size: 20px !important;
+    position: relative;
+}
+
+.res-nav-item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: crimson;
+    transition: width 300ms;
+}
+
+.res-nav-item:hover.res-nav-item::before {
+    width: 100%;
+}
