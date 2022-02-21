@@ -27,7 +27,7 @@ $(document).ready(function() {
             }
         },
         URLhashListener: true,
-        startPosition: 'zero',
+        startPosition: "zero",
         stagePadding: 50,
         autoplay: true,
         autoplay: 2000,
@@ -62,7 +62,29 @@ $(document).ready(function() {
     });
 });
 
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipTriggerList = [].slice.call(
+    document.querySelectorAll('[data-bs-toggle="tooltip"]')
+);
 var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl)
-})
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+});
+
+var navbar = document.getElementById("Navbar");
+window.addEventListener("scroll", function() {
+    var y = window.scrollY;
+    if (y >= 200) {
+        navbar.classList.add("navbar-bg-purple");
+        navbar.classList.add("fixedNav");
+        navbar.classList.remove("scrollyNav");
+        navbar.classList.remove("bg-transparent");
+        navbar.classList.remove("p-4");
+        navbar.classList.add("p-2");
+    } else if (y < 200) {
+        navbar.classList.remove("navbar-bg-purple");
+        navbar.classList.remove("fixedNav");
+        navbar.classList.add("scrollyNav");
+        navbar.classList.add("bg-transparent");
+        navbar.classList.remove("p-2");
+        navbar.classList.add("p-4");
+    }
+});
