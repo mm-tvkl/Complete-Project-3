@@ -46,3 +46,13 @@
         font-size: 40px;
     }
 }
+
+/* Header */
+@media screen and (max-width:991px) {
+    .myHeader{
+        height: 150vh;
+    }
+
+    .main-header-section{
+    }
+}
