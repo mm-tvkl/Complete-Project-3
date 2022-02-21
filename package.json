@@ -9,6 +9,7 @@
   "author": "Mohammadmahdi Tavakkoli",
   "license": "MIT",
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^5.1.3",
     "bootstrap-icons": "^1.8.1",
     "owl.carousel": "^2.3.4"
